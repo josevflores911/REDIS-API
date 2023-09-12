@@ -62,3 +62,11 @@ mkdir -p src/shared/http
 yarn add express cors express-async-errors
 
 yarn add -D @types/express @types/cors
+
+
+ yarn add typeorm reflect-metadata pgyarn
+//"typeorm": "^0.3.17"
+
+docker run --name postgres -e  POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
+
+yarn add -D tsconfig-paths
