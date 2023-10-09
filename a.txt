@@ -93,3 +93,5 @@ yarn typeorm migration:create -n CreateUserTokens
 yarn typeorm migration:run
 
 yarn add date-fns
+
+yarn add nodemailer
